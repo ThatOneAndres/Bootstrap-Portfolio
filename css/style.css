@@ -41,6 +41,8 @@ h1, h2{
 }
 .forum-text{
 	font-size: 20px;
+	padding-top: 20px;
+	margin-bottom: 5px;
 }
 input[type=text] {
 	width: 100%;
@@ -48,9 +50,25 @@ input[type=text] {
 .port-img{
 	padding: 40px;
 }
-.thumbail{
-	border: 0;
+.img{
 	position: relative;
+	width: 250px;
+}
+.caption{
+	position: absolute;
+	bottom: 20px;
+	font-size: 20px;
+	width: 100%;
+	text-align: center;
+	background-color: #4aaaa5;
+	color: #fff;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+button[type=button] {
+	background: #4aaaa5;
+	border: none;
 
 }
 
@@ -60,12 +78,3 @@ input[type=text] {
 		text-align: center;
 	}
 }
-/*button[type=button] {
-	margin-top: 10px;
-	background: #4aaaa5;
-	color: #fff;
-	width: 16%;
-	height: 42px;
-	border: none;
-	font-size: 1em;	 
-}*/
