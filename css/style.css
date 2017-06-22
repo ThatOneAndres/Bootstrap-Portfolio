@@ -38,6 +38,7 @@ h1, h2{
 	color: #4aaaa5;
 	border-bottom: solid 1px #bfbfbf;
 	padding-bottom: 10px;
+	font-size: 24px;
 }
 .forum-text{
 	font-size: 20px;
@@ -65,11 +66,25 @@ input[type=text] {
 	padding-top: 8px;
 	padding-bottom: 8px;
 }
+.gap{
+	height: 20px;
+}
 
 button[type=button] {
 	background: #4aaaa5;
 	border: none;
 
+}
+.ft{
+	background-color: #666666;
+	border-top: solid 5px #4aaaa5;
+	position: absolute;
+	bottom: 0;
+	color:#fff;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	width: 100%;
+	font-size: 11px;
 }
 
 
