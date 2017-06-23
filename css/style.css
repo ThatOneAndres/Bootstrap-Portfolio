@@ -1,5 +1,6 @@
 html{
-	height: 100%;
+	position: relative;
+	min-height: 100%;
 }
 body{
 	height: 100%;
@@ -7,14 +8,15 @@ body{
 	background-repeat: repeat;
 	color: #777777;
 	font-family: 'Arial', 'Helvetica Nueu', Helvetica, sans-serif;
+	margin-bottom: 60px;
 }
 h1, h2{
 	font-family: 'Georgia', Times, Times New Roman, serif;
 }
 .header{
 	background-color: #4aaaa5;
-	color: #fff;
 	margin: 0;
+	font-size: 36px;
 	padding: 20px;
 }
 .links{
@@ -27,7 +29,12 @@ h1, h2{
 	background-color: #fff;
 	padding-bottom: 20px;
 }
-
+.main-content{
+	margin-bottom: 15px;
+}
+.main-img{
+	margin: 0 10px 10px 0;
+}
 #about{
 	color: #4aaaa5;
 	border-bottom: solid 2px #bfbfbf;
@@ -38,6 +45,7 @@ h1, h2{
 	color: #4aaaa5;
 	border-bottom: solid 1px #bfbfbf;
 	padding-bottom: 10px;
+	font-size: 26px;
 }
 .forum-text{
 	font-size: 20px;
@@ -66,15 +74,34 @@ input[type=text] {
 	padding-bottom: 8px;
 }
 
-button[type=button] {
+.btn-primary {
 	background: #4aaaa5;
 	border: none;
 
 }
+.navbar-default .navbar-brand{
+	color: #fff;
+}
+.footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	/* Set the fixed height of the footer here */
 
+	background-color: #666666;
+	border-top: solid 5px #4aaaa5;
+	font-size: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	left: 0;
+	z-index: 2;
+}
+.text-muted{
+	color: #fff;
+}
 
-@media only screen and (max-width: 768px) {
+/*@media only screen and (max-width: 768px) {
 	.port-img{
 		text-align: center;
 	}
-}
+	}*/
