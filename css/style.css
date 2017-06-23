@@ -9,9 +9,11 @@ body{
 	color: #777777;
 	font-family: 'Arial', 'Helvetica Nueu', Helvetica, sans-serif;
 	margin-bottom: 60px;
+
 }
 h1, h2{
 	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 30px;
 }
 .header{
 	background-color: #4aaaa5;
@@ -19,11 +21,20 @@ h1, h2{
 	font-size: 36px;
 	padding: 20px;
 }
+.header-bar{
+	border-bottom: solid 1px;
+	border-bottom-color: #cccccc;
+}
 .links{
 	padding-top: 3%;
 }
 .link{
 	font-size: 16px;
+}
+.prof-img{
+	overflow: auto;
+	float: left;
+	margin: 0 10px 10px 0;
 }
 .background{
 	background-color: #fff;
@@ -46,6 +57,7 @@ h1, h2{
 	border-bottom: solid 1px #bfbfbf;
 	padding-bottom: 10px;
 	font-size: 26px;
+
 }
 .forum-text{
 	font-size: 20px;
@@ -73,12 +85,16 @@ input[type=text] {
 	padding-top: 8px;
 	padding-bottom: 8px;
 }
+.gap{
+	height: 20px;
+}
 
 .btn-primary {
 	background: #4aaaa5;
 	border: none;
 
 }
+
 .navbar-default .navbar-brand{
 	color: #fff;
 }
@@ -87,7 +103,6 @@ input[type=text] {
 	bottom: 0;
 	width: 100%;
 	/* Set the fixed height of the footer here */
-
 	background-color: #666666;
 	border-top: solid 5px #4aaaa5;
 	font-size: 10px;
